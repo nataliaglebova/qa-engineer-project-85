@@ -1,0 +1,125 @@
+---
+- summary: |
+    Проверка запуска игры без регистрации
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с существующими логином (email) и паролем
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с несуществующими логином (email) и паролем
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с неправильным паролем
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с аккаутном GitHub
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с аккаутном Discord
+  status: pass
+
+- summary: |
+    Проверка выбора языка программирования для соревнования
+  status: pass
+
+- summary: |
+    Проверка настройки игры при создании
+  status: pass
+
+- summary: |
+    Проверка подключения к уже созданным играм
+  status: pass
+
+- summary: |
+    Проверка выбора конкретного соперника при создании игры
+  status: pass
+
+- summary: |
+    Проверка выбора любого соперника из пользователей
+  status: pass
+
+- summary: |
+    Проверка создания игры с ботом
+  status: pass
+
+- summary: |
+    Проверка работы редактора кода в соревновании
+  status: pass
+
+- summary: |
+    Проверка работы чата в игре
+  status: pass
+
+- summary: |
+    Проверка автопроверок решения в игре
+  status: pass
+
+- summary: |
+    Проверка запуска матч-реванша с тем же пользователем
+  status: pass
+
+- summary: |
+    Проверка очистки редактора кода
+  status: pass
+
+- summary: |
+    Проверка сохранения игры при сбое подключения
+  status: pass
+
+- summary: |
+    Проверка объявления о выигрыше
+  status: pass 
+
+- summary: |
+    Проверка выхода из игры при выигрыше
+  status: pass
+     
+- summary: |
+    Проверка доигрывания при проигрыше
+  status: pass
+
+- summary: |
+    Проверка работы чата в личном кабинете
+  status: pass
+
+- summary: |
+    Проверка мобильной верстки сайта
+  status: pass
+
+- summary: |
+    Проверка работы на планшете
+  status: pass
+
+- summary: |
+    Проверка работы в браузере Google Chrome
+  status: pass
+
+- summary: |
+    Проверка работы в браузере Safari
+  status: pass
+
+- summary: |
+    Проверка работы в браузере EI 11
+  status: fail
+
+- summary: |
+    Проверка работы в браузере Firefox
+  status: pass
+
+- summary: |
+    Отображение кода соперника в реальном времени
+  status: pass
+
+- summary: |
+   Смена языка отображения сайта
+  status: fail
+
+- summary: |
+   Провекрка выхода из личного кабинета
+  status: fail
+ 
